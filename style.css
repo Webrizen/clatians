@@ -279,6 +279,19 @@
     }
   }  
 
+  .text-gradient {
+    background: linear-gradient(to right, #1e40af, #4f46e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hover-link {
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .hover-link:hover {
+    color: #1d4ed8;
+  }
 
 /* Utility CSS  */
 
