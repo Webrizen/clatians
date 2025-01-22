@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global Changes  -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Clatians - Best CLAT coaching institutes in Patna</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="d-none d-md-block w-100">
+        <div class="bg-white">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-start p-2 gap-3">
+                    <div class="w-100 overflow-hidden">
+                        <!-- Marquee Component -->
+                        <marquee onmouseover="this.stop();" onmouseout="this.start();" class="mx-auto"
+                            style="--duration:20s;">
+                            <!-- Example logic with JavaScript for dynamic notifications -->
+                            <span id="notification-container">
+                                <!-- Loading -->
+                                <span class="badge bg-secondary" id="loading">Loading notifications...</span>
+                                <span class="badge bg-secondary" id="loading">Loading notifications...</span>
+                                <span class="badge bg-secondary" id="loading">Loading notifications...</span>
+                                <span class="badge bg-secondary" id="loading">Loading notifications...</span>
+                                <span class="badge bg-secondary" id="loading">Loading notifications...</span>
+                                <!-- Notifications will be dynamically added here -->
+                                <!-- Example Notifications -->
+                                <!--
+                                <a href="/locale/notifications" class="badge bg-secondary text-decoration-none">Notification Title</a>
+                                <span class="badge bg-secondary">No notifications available</span>
+                                -->
+                            </span>
+                        </marquee>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-end w-100 gap-1">
+                        <!-- Top Bar Links -->
+                        <a href="/locale/take-admission-at-prayasiasacademy"
+                            class="btn-v btn-v-outline btn-v-default-size">Admission</a>
+                        <a href="/locale/#our-selections" class="btn-v btn-v-outline btn-v-default-size">Selection</a>
+                        <a href="/locale/test-series" class="btn-v btn-v-outline btn-v-default-size">MockTest</a>
+                        <a href="/" class="btn-v btn-v-outline btn-v-default-size position-relative">
+                            Live Classes
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-1 pulse">
+                                <span class="visually-hidden">New alerts</span>
+                            </span>
+                        </a>
+                        <a href="/locale/gallery" class="btn-v btn-v-outline btn-v-default-size">Videos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/">
+                <img src="http://placehold.co/100x40" alt="ACADEMY Logo">
+            </a>
+
+            <!-- Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="btn-v btn-v-ghost btn-v-default-size" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn-v btn-v-ghost btn-v-default-size" href="/about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="btn-v btn-v-ghost btn-v-default-size dropdown-toggle" href="#" id="coursesDropdown" role="button">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="coursesDropdown">
+                            <li><a class="dropdown-item" href="/course-1">Course 1</a></li>
+                            <li><a class="dropdown-item" href="/course-2">Course 2</a></li>
+                            <li><a class="dropdown-item" href="/course-3">Course 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="btn-v btn-v-ghost btn-v-default-size dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button">
+                            Free Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="/resource-1">Resource 1</a></li>
+                            <li><a class="dropdown-item" href="/resource-2">Resource 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn-v btn-v-ghost btn-v-default-size" href="/blogs">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn-v btn-v-ghost btn-v-default-size" href="/contact">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Call Us Dropdown -->
+                <div class="dropdown">
+                    <button class="btn-v btn-v-secondary btn-v-default-size rounded-pill dropdown-toggle" type="button" id="callUsDropdown"
+                        data-bs-toggle="dropdown">
+                        Call Us
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="callUsDropdown">
+                        <li><a class="dropdown-item" href="tel:+918818810184">+91 8818810184</a></li>
+                        <li><a class="dropdown-item" href="tel:+918818810183">+91 8818810183</a></li>
+                    </ul>
+                </div>
+
+                <!-- Language Switcher -->
+                <div class="language-switcher ms-3 btn-v">
+                    <button class="btn-v btn-v-default btn-v-default-size" id="btnEnglish">English</button>
+                    <button class="btn-v btn-v-default-size ms-1" id="btnHindi">Hindi</button>
+                </div>
+
+                <!-- Download App Button -->
+                <a class="btn-v btn-v-default btn-v-lg ms-3 rounded-pill" href="https://play.google.com/store/apps/details?id=co.griffin.jrahc"
+                    target="_blank">Download App</a>
+            </div>
+        </div>
+    </nav>
+
+    ab woh aye toh itni bedardi se jye nhi
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
