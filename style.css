@@ -361,3 +361,8 @@
       opacity: 1;
     }
   }
+
+  .bg-gred{
+    background: linear-gradient(90deg, #ea5a0c30, #ef444429);
+    position: relative;
+  }
