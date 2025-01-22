@@ -51,6 +51,97 @@
     border-radius: 55px;
 }
 
+/* Carousel Styling */
+#heroCarousel .carousel-item img {
+    object-fit: cover;
+    height: 250px;
+    /* Ensures consistent height */
+}
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    background-color: #5a4bda;
+    /* Matches the primary blue color */
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: #473ab2;
+    /* Darker shade for active indicator */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+    /* Ensures controls are visible */
+}
+
+
+/* Hero Section Styling */
+.hero-section {
+    background: url("https://static.pw.live/ua/images/compress_background.webp");
+    padding: 60px 20px;
+}
+
+.text-section h1 {
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.text-section h1 .text-primary-custom {
+    color: #5a4bda;
+}
+
+.text-section p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.features .feature-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.features .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.features .feature-card h5 {
+    font-weight: 600;
+}
+
+.features .feature-card p {
+    font-weight: 400;
+}
+
+.btn-primary-custom {
+    background-color: #5a4bda;
+    border-color: #5a4bda;
+    font-weight: 600;
+    padding: 12px 30px;
+    font-size: 1rem;
+}
+
+.btn-primary-custom:hover {
+    background-color: #473ab2;
+    border-color: #473ab2;
+}
+
+.text-primary-custom {
+    color: #5a4bda !important;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 15px;
+    }
+}
+
 /* Utility CSS  */
  .btn-v {
     display: inline-flex;
